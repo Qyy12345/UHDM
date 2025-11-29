@@ -7,8 +7,8 @@ GENERAL:
 
 DATA:
   DATA_TYPE: UHDM # Please specify the type of the dataset (select from AIM/UHDM/FHDMi/TIP)
-  TRAIN_DATASET:  ./uhdm_data/Train
-  TEST_DATASET:  ./uhdm_data/Test
+  TRAIN_DATASET:  ./uhdm_data/train
+  TEST_DATASET:  ./uhdm_data/test
 
 MODEL:
   EN_FEATURE_NUM: 48 # The initial channel number of dense blocks of encoder
