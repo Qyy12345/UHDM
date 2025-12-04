@@ -30,7 +30,7 @@ TRAIN:
 TEST:
   TEST_EPOCH: 150 # Input 'auto' for loading the latest model
   SAVE_IMG: False # The file type (e.g., jpg, png) for saving the output image; set False to avoid saving
-  LOAD_PATH: False # If specify a load path for a checkpoint, TEST_EPOCH will be deprecated
+  LOAD_PATH: ./out_dir/uhdm # If specify a load path for a checkpoint, TEST_EPOCH will be deprecated
   EVALUATION_METRIC: True # If True, calculate metrics
   EVALUATION_TIME: False # If True, calculate processing time per image; EVALUATION_METRIC will be deprecated for accurate statistics
   EVALUATION_COST: False #If True, calculate MACs and Parameters number
