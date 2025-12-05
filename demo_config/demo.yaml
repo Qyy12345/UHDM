@@ -7,7 +7,7 @@ GENERAL:
   EXP_NAME: 'exp'
 
 DATA:
-  DEMO_DATASET: /data_ssd/hku_image_gp/4K_MOIRE/test # Insert the root of your moire images
+  DEMO_DATASET: ./data_ssd/hku_image_gp/4K_MOIRE/test # Insert the root of your moire images
 
 MODEL:
   EN_FEATURE_NUM: 48
